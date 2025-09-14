@@ -1,0 +1,18 @@
+public class main {
+public static void main(String[] args) {
+      char a = 'p';
+       char b = 'd';
+char c = 'i';
+boolean tidur  = true;
+boolean  makan =false;
+boolean mimpi = true;
+        
+System.out.println("kode 1 = "+a);
+   System.out.println("kode 2 = "+b);        
+ System.out.println("kode 3 = "+c);         
+     System.out.println("saya sedang tidur : "+tidur);   
+   System.out.println("saya sedang makan : "+makan);
+       System.out.println("saya bermimpi: "+mimpi);
+    }
+    
+}
