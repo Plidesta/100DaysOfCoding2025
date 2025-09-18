@@ -38,4 +38,7 @@ public class main {
         char ch = lids.next().charAt(0);
         System.out.println(">>");
         System.out.println("thank you > <");
-        System.out.println("🗿🗿");
+        
+            }
+}
+
