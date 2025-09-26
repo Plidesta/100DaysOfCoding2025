@@ -1,18 +1,19 @@
 public class main {
   public static void main(String[]args) {
-     byte bt = 50;
-      short sh = (short)bt;
-        int in = (int)sh;
-          long lg = (long)in;
-        double dl = (double)lg;
-            float fl = (float)dl;
+     float fl = 50.0f;
+      double dl = (double)fl;
+      long lg = (long)dl;
+      int in = (int)lg;
+      short sh = (short)in;
+      byte bt = (byte)sh;
         System.out.println("");
-        System.out.println(bt);
-        System.out.println(sh);
-        System.out.println(in);
-        System.out.println(lg);
-        System.out.println(dl);
-        System.out.println(fl);
+        System.out.println("nilai dari fl = "+fl);
+        System.out.println("nilai dari dl = "+dl);
+        System.out.println("nilai dari lg = "+lg);
+        System.out.println("nilai dari in = "+in);
+        System.out.println("nilai dari sh = "+sh);
+        System.out.println("nilai dari bt = "+bt);
     }
     
 }
+    
