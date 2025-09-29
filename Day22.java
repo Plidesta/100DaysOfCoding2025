@@ -5,10 +5,7 @@ public class main {
      Scanner v = new Scanner(System.in);
         System.out.print("masukan panjang sisi 1 : ");
      int sisi = v.nextInt();   
-        System.out.print("masukan panjang sisi 2 : ");
-      int sisi2 = v.nextInt();
-        
-   System.out.println("luas persegi panjang X = "+(sisi*sisi2));
+   System.out.println("luas persegi panjang X = "+(sisi*sisi));
     }
     
 }
