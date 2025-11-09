@@ -6,7 +6,7 @@ public class main {
         System.out.print("masukan nilai N : ");
         int n = v.nextInt();
         
-        int x = 1;
+        double x = 1;
         
         for (int a=1;a<=n;a++){
             x = x*a;
