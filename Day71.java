@@ -13,12 +13,11 @@ public class main {
             for (int b = 1; b <= a; b++) {
                 System.out.print("☆ ");
             }
-            System.out.println(); 
         }
         
         }else {
             System.out.println("angka melebihi batas");
         }
-        
+        System.out.println(); 
     }
 }
